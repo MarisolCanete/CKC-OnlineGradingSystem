@@ -5,18 +5,28 @@ session_start();
 ?>
     <head>
         <meta charset="UTF-8">
-        <title>AdminLTE | Dashboard</title>
+        <title>CKC-OGS</title>
         <meta content='width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no' name='viewport'>
         <!-- bootstrap 3.0.2 -->
         <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
         <!-- Theme style -->
         <link href="css/AdminLTE.css" rel="stylesheet" type="text/css" />
+        <style>
 
+          body,html{
+            background-image: url("img/bg.png");
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            height:100%;
+          }
+        </style>
     </head>
     <body class="skin-black">
         <div class="container" style="margin-top:30px">
           <div class="col-md-4 col-md-offset-4">
-              <div class="panel panel-default">
+          <center><img src="img/logo.png" width="150px" height="150px" class="" alt="Cinque Terre"></center>
+            <div class="panel panel-default">
             <div class="panel-heading"><h3 class="panel-title"><strong>CKC - Online Grading System</strong></h3></div>
             <div class="panel-body">
               <form role="form" method="post">
