@@ -12,7 +12,13 @@ session_start();
         <!-- Theme style -->
         <link href="css/AdminLTE.css" rel="stylesheet" type="text/css" />
         <style>
-
+          .panel > .panel-heading{
+            background-color: #3e3e3e ;
+            color: #fff;
+          }
+          h3{
+            text-align: center;
+          }
           body,html{
             background-image: url("img/bg.png");
             background-position: center;
