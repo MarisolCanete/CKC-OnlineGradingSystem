@@ -57,7 +57,7 @@ session_start();
               $_SESSION['userid'] = $row['user_id'];
               header ('location: pages/grade/grade.php');
             else:
-              echo "<h1>Invalid Username or Password</h1>";
+              echo "<center><h1>Invalid Username or Password</h1></center>";
             endif;             
         }
       ?>
